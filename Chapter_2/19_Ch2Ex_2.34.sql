@@ -1,0 +1,2 @@
+-- The built-in function COUNT counts the number of rows that are not null.
+-- The SUM function adds up the numbers present in a column where it is called.
