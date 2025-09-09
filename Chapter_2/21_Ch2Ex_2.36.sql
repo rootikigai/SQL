@@ -1,5 +1,5 @@
-Select WarehouseID, sum(QuantityOnHand) as TotalItemsOnHandOmit3Plus
+Select WarehouseID, sum(QuantityOnHand) as TotalItemsOnHandLT3
 FROM INVENTORY
 where QuantityOnHand < 3
 Group By WarehouseID
-Order By TotalItemsOnHand desc;
+Order By TotalItemsOnHandLT3 desc;
