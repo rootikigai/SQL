@@ -1,4 +1,3 @@
-Select SKU, SKU_Description, WarehouseID
+Select SKU, SKU_Description
 FROM INVENTORY
 where QuantityOnHand = 0
-ORDER BY WarehouseID asc;
